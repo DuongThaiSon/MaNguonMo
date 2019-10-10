@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('admin.layouts.main');
+    return view('welcome');
 });
