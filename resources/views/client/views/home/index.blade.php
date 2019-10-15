@@ -1,21 +1,21 @@
 @extends('client.layouts.main')
 @section('content')
-
 <section class="home-slider owl-carousel">
     <div class="slider-item" style="background-image: url({{ asset('client/asset') }}/images/bg_1.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <span class="subheading">Welcome</span>
                     <h1 class="mb-4">The Best Coffee Testing Experience</h1>
                     <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia.</p>
-                    <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#"
-                            class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                        necessary regelialia.
+                    </p>
+                    <p>
+                        <a href="shop" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> 
+                        <a href="menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a>
+                    </p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -24,16 +24,17 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <span class="subheading">Welcome</span>
                     <h1 class="mb-4">Amazing Taste &amp; Beautiful Place</h1>
                     <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia.</p>
-                    <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#"
-                            class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                        necessary regelialia.
+                    </p>
+                    <p>
+                        <a href="shop" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> 
+                        <a href="menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a>
+                    </p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -42,87 +43,16 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <span class="subheading">Welcome</span>
                     <h1 class="mb-4">Creamy Hot and Ready to Serve</h1>
                     <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the
                         necessary regelialia.</p>
-                    <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#"
-                            class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                    <p>
+                    <a href="shop" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> 
+                    <a href="menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                 </div>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-intro">
-    <div class="container-wrap">
-        <div class="wrap d-md-flex align-items-xl-end">
-            <div class="info">
-                <div class="row no-gutters">
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="icon"><span class="icon-phone"></span></div>
-                        <div class="text">
-                            <h3>000 (123) 456 7890</h3>
-                            <p>A small river named Duden flows by their place and supplies.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="icon"><span class="icon-my_location"></span></div>
-                        <div class="text">
-                            <h3>198 West 21th Street</h3>
-                            <p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="icon"><span class="icon-clock-o"></span></div>
-                        <div class="text">
-                            <h3>Open Monday-Friday</h3>
-                            <p>8:00am - 9:00pm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="book p-4">
-                <h3>Book a Table</h3>
-                <form action="#" class="appointment-form">
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name">
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="text" class="form-control" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <div class="input-wrap">
-                                <div class="icon"><span class="ion-md-calendar"></span></div>
-                                <input type="text" class="form-control appointment_date" placeholder="Date">
-                            </div>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <div class="input-wrap">
-                                <div class="icon"><span class="ion-ios-clock"></span></div>
-                                <input type="text" class="form-control appointment_time" placeholder="Time">
-                            </div>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                    </div>
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="2" class="form-control"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="submit" value="Appointment" class="btn btn-white py-3 px-4">
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
@@ -142,7 +72,8 @@
                     the word "and" and the Little Blind Text should turn around and return to its own, safe country.
                     But nothing the copy said could convince her and so it didn’t take long until a few insidious
                     Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                    agency, where they abused her for their.</p>
+                    agency, where they abused her for their.
+                </p>
             </div>
         </div>
     </div>
@@ -159,7 +90,8 @@
                     <div class="media-body">
                         <h3 class="heading">Easy to Order</h3>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                            unorthographic.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -171,18 +103,21 @@
                     <div class="media-body">
                         <h3 class="heading">Fastest Delivery</h3>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                            unorthographic.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="media d-block text-center block-6 services">
                     <div class="icon d-flex justify-content-center align-items-center mb-5">
-                        <span class="flaticon-coffee-bean"></span></div>
+                        <span class="flaticon-coffee-bean"></span>
+                    </div>
                     <div class="media-body">
                         <h3 class="heading">Quality Coffee</h3>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                            unorthographic.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -200,29 +135,29 @@
                     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
                         Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
                         coast of the Semantics, a large language ocean.</p>
-                    <p><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
+                    <p><a href="menu" class="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-1.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-1.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry mt-lg-4">
-                            <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-2.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-2.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-3.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-3.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry mt-lg-4">
-                            <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-4.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-4.jpg);"></a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +233,7 @@
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
                         <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                        <p><a href="cart" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                     </div>
                 </div>
             </div>
@@ -309,7 +244,7 @@
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
                         <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                        <p><a href="cart" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                     </div>
                 </div>
             </div>
@@ -320,7 +255,7 @@
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
                         <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                        <p><a href="cart" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                     </div>
                 </div>
             </div>
@@ -331,48 +266,9 @@
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
                         <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                        <p><a href="cart" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-gallery">
-    <div class="container-wrap">
-        <div class="row no-gutters">
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center"
-                    style="background-image: url({{ asset('client/asset') }}/images/gallery-1.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center"
-                    style="background-image: url({{ asset('client/asset') }}/images/gallery-2.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center"
-                    style="background-image: url({{ asset('client/asset') }}/images/gallery-3.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center"
-                    style="background-image: url({{ asset('client/asset') }}/images/gallery-4.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
             </div>
         </div>
     </div>
@@ -395,19 +291,18 @@
                         <div class="nav ftco-animate nav-pills justify-content-center" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
-                                role="tab" aria-controls="v-pills-1" aria-selected="true">Main Dish</a>
-
+                                role="tab" aria-controls="v-pills-1" aria-selected="true">Main Dish
+                            </a>
                             <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
-                                aria-controls="v-pills-2" aria-selected="false">Drinks</a>
-
+                                aria-controls="v-pills-2" aria-selected="false">Drinks
+                            </a>
                             <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
-                                aria-controls="v-pills-3" aria-selected="false">Desserts</a>
+                                aria-controls="v-pills-3" aria-selected="false">Desserts
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-12 d-flex align-items-center">
-
                         <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
                             <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
                                 aria-labelledby="v-pills-1-tab">
                                 <div class="row">
@@ -649,119 +544,6 @@
                                 Designer</span></div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-            <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Recent from blog</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                    live the blind texts.</p>
-            </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{ asset('client/asset') }}/images/image_1.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{ asset('client/asset') }}/images/image_2.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{ asset('client/asset') }}/images/image_3.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="ftco-appointment">
-    <div class="overlay"></div>
-    <div class="container-wrap">
-        <div class="row no-gutters d-md-flex align-items-center">
-            <div class="col-md-6 d-flex align-self-stretch">
-                <div id="map"></div>
-            </div>
-            <div class="col-md-6 appointment ftco-animate">
-                <h3 class="mb-3">Book a Table</h3>
-                <form action="#" class="appointment-form">
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name">
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="text" class="form-control" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <div class="input-wrap">
-                                <div class="icon"><span class="ion-md-calendar"></span></div>
-                                <input type="text" class="form-control appointment_date" placeholder="Date">
-                            </div>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <div class="input-wrap">
-                                <div class="icon"><span class="ion-ios-clock"></span></div>
-                                <input type="text" class="form-control appointment_time" placeholder="Time">
-                            </div>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                    </div>
-                    <div class="d-md-flex">
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="2" class="form-control"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-group ml-md-4">
-                            <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
