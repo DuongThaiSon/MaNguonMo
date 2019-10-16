@@ -1,7 +1,8 @@
 @extends('client.layouts.main')
+@section('title','Shop')
 @section('content')
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url({{ asset('client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
@@ -45,12 +46,12 @@
                                     <div class="col-md-3">
                                         <div class="menu-entry">
                                             <a href="product-detail" class="img"
-                                                style="background-image: url({{ asset('client/asset') }}/images/menu-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
                                             <div class="text text-center pt-4">
-                                                <h3><a href="product-single.html">Coffee Capuccino</a></h3>
+                                                <h3><a href="product-single">Coffee Capuccino</a></h3>
                                                 <p>A small river named Duden flows by their place and supplies</p>
                                                 <p class="price"><span>$5.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to Cart</a></p>
                                             </div>
                                         </div>
@@ -58,12 +59,12 @@
                                     <div class="col-md-3">
                                         <div class="menu-entry">
                                             <a href="product-detail" class="img"
-                                                style="background-image: url({{ asset('client/asset') }}/images/menu-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
                                             <div class="text text-center pt-4">
-                                                <h3><a href="product-single.html">Coffee Capuccino</a></h3>
+                                                <h3><a href="product-single">Coffee Capuccino</a></h3>
                                                 <p>A small river named Duden flows by their place and supplies</p>
                                                 <p class="price"><span>$5.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to Cart</a></p>
                                             </div>
                                         </div>
@@ -71,12 +72,12 @@
                                     <div class="col-md-3">
                                         <div class="menu-entry">
                                             <a href="product-detail" class="img"
-                                                style="background-image: url({{ asset('client/asset') }}/images/menu-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
                                             <div class="text text-center pt-4">
-                                                <h3><a href="product-single.html">Coffee Capuccino</a></h3>
+                                                <h3><a href="product-single">Coffee Capuccino</a></h3>
                                                 <p>A small river named Duden flows by their place and supplies</p>
                                                 <p class="price"><span>$5.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to Cart</a></p>
                                             </div>
                                         </div>
@@ -84,12 +85,12 @@
                                     <div class="col-md-3">
                                         <div class="menu-entry">
                                             <a href="product-detail" class="img"
-                                                style="background-image: url({{ asset('client/asset') }}/images/menu-4.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
                                             <div class="text text-center pt-4">
-                                                <h3><a href="product-single.html">Coffee Capuccino</a></h3>
+                                                <h3><a href="product-single">Coffee Capuccino</a></h3>
                                                 <p>A small river named Duden flows by their place and supplies</p>
                                                 <p class="price"><span>$5.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to Cart</a></p>
                                             </div>
                                         </div>
@@ -102,13 +103,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-1.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -116,13 +117,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-2.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -130,13 +131,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-3.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -144,13 +145,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-4.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-4.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -158,13 +159,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-5.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-5.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -172,13 +173,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dish-6.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-6.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Grilled Beef</a></h3>
+                                                <h3><a href="product-single">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -191,13 +192,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-1.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Lemonade Juice</a></h3>
+                                                <h3><a href="product-single">Lemonade Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -205,13 +206,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-2.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Pineapple Juice</a></h3>
+                                                <h3><a href="product-single">Pineapple Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -219,13 +220,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-3.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Soda Drinks</a></h3>
+                                                <h3><a href="product-single">Soda Drinks</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -233,13 +234,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-4.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-4.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Lemonade Juice</a></h3>
+                                                <h3><a href="product-single">Lemonade Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -247,13 +248,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-5.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-5.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Pineapple Juice</a></h3>
+                                                <h3><a href="product-single">Pineapple Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -261,13 +262,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/drink-6.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-6.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Soda Drinks</a></h3>
+                                                <h3><a href="product-single">Soda Drinks</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -280,13 +281,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-1.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -294,13 +295,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-2.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -308,13 +309,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-3.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -322,13 +323,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-4.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-4.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -336,13 +337,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-5.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-5.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>
@@ -350,13 +351,13 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('client/asset') }}/images/dessert-6.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-6.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="product-single.html">Hot Cake Honey</a></h3>
+                                                <h3><a href="product-single">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
                                                     Vokalia and Consonantia.</p>
                                                 <p class="price"><span>$2.90</span></p>
-                                                <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add
+                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to cart</a></p>
                                             </div>
                                         </div>

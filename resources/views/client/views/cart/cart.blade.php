@@ -1,8 +1,9 @@
 @extends('client.layouts.main')
+@section('title','Giỏ hàng')
 @section('content')
 <section class="home-slider owl-carousel">
 
-    <div class="slider-item" style="background-image: url({{ asset('client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
@@ -26,6 +27,7 @@
                             <tr class="text-center">
                                 <th>&nbsp;</th>
                                 <th>&nbsp;</th>
+                                <th>Size</th>
                                 <th>Product</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
@@ -37,12 +39,15 @@
                                 <td class="product-remove"><a href="#"><span class="icon-close"></span></a></td>
 
                                 <td class="image-prod">
-                                    <div class="img" style="background-image:url({{ asset('client/asset') }}/images/menu-2.jpg);"></div>
+                                    <div class="img" style="background-image:url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></div>
+                                </td>
+
+                                <td>
+                                    <p>Small</p>
                                 </td>
 
                                 <td class="product-name">
                                     <h3>Creamy Latte Coffee</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
                                 </td>
 
                                 <td class="price">$4.90</td>
@@ -55,18 +60,21 @@
                                 </td>
 
                                 <td class="total">$4.90</td>
-                            </tr><!-- END TR-->
+                            </tr>
 
                             <tr class="text-center">
                                 <td class="product-remove"><a href="#"><span class="icon-close"></span></a></td>
 
                                 <td class="image-prod">
-                                    <div class="img" style="background-image:url({{ asset('client/asset') }}/images/dish-2.jpg);"></div>
+                                    <div class="img" style="background-image:url({{ asset('assets/client/asset') }}/images/dish-2.jpg);"></div>
+                                </td>
+                                
+                                <td>
+                                    <p>Large</p>
                                 </td>
 
                                 <td class="product-name">
                                     <h3>Grilled Ribs Beef</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
                                 </td>
 
                                 <td class="price">$15.70</td>
@@ -78,7 +86,7 @@
                                 </td>
 
                                 <td class="total">$15.70</td>
-                            </tr><!-- END TR-->
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -126,7 +134,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-1.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -137,7 +145,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-2.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -148,7 +156,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-3.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -159,7 +167,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-4.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>

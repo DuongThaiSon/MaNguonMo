@@ -1,8 +1,9 @@
 @extends('client.layouts.main')
+@section('title','Chi tiết')
 @section('content')
 <section class="home-slider owl-carousel">
 
-    <div class="slider-item" style="background-image: url({{ asset('client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
@@ -22,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 ftco-animate">
-                <a href="{{ asset('client/asset') }}/images/menu-2.jpg" class="image-popup"><img src="{{ asset('client/asset') }}/images/menu-2.jpg" class="img-fluid"
+                <a href="{{ asset('assets/client/asset') }}/images/menu-2.jpg" class="image-popup"><img src="{{ asset('assets/client/asset') }}/images/menu-2.jpg" class="img-fluid"
                         alt="Colorlib Template"></a>
             </div>
             <div class="col-lg-6 product-details pl-md-5 ftco-animate">
@@ -86,7 +87,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-1.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -97,7 +98,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-2.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -108,7 +109,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-3.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -119,7 +120,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('client/asset') }}/images/menu-4.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
