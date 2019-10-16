@@ -2,16 +2,14 @@
 @section('title','Giỏ hàng')
 @section('content')
 <section class="home-slider owl-carousel">
-
     <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
                 <div class="col-md-7 col-sm-12 text-center ftco-animate">
-                    <h1 class="mb-3 mt-5 bread">Cart</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Cart</span></p>
+                    <h1 class="mb-3 mt-5 bread">Giỏ hàng</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>Giỏ hàng</span></p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -28,10 +26,10 @@
                                 <th>&nbsp;</th>
                                 <th>&nbsp;</th>
                                 <th>Size</th>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng cộng</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -43,14 +41,14 @@
                                 </td>
 
                                 <td>
-                                    <p>Small</p>
+                                    <p class="text-white">Nhỏ</p>
                                 </td>
 
                                 <td class="product-name">
                                     <h3>Creamy Latte Coffee</h3>
                                 </td>
 
-                                <td class="price">$4.90</td>
+                                <td class="price">20.000</td>
 
                                 <td class="quantity">
                                     <div class="input-group mb-3">
@@ -59,7 +57,7 @@
                                     </div>
                                 </td>
 
-                                <td class="total">$4.90</td>
+                                <td class="total">40.000</td>
                             </tr>
 
                             <tr class="text-center">
@@ -70,14 +68,14 @@
                                 </td>
                                 
                                 <td>
-                                    <p>Large</p>
+                                    <p class="text-white">Lớn</p>
                                 </td>
 
                                 <td class="product-name">
                                     <h3>Grilled Ribs Beef</h3>
                                 </td>
 
-                                <td class="price">$15.70</td>
+                                <td class="price">30.000</td>
 
                                 <td class="quantity">
                                     <div class="input-group mb-3">
@@ -85,7 +83,7 @@
                                     </div>
                                 </td>
 
-                                <td class="total">$15.70</td>
+                                <td class="total">30.000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -95,86 +93,27 @@
         <div class="row justify-content-end">
             <div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
                 <div class="cart-total mb-3">
-                    <h3>Cart Totals</h3>
+                    <h3>Đơn hàng</h3>
                     <p class="d-flex">
-                        <span>Subtotal</span>
-                        <span>$20.60</span>
+                        <span>Đơn giá</span>
+                        <span>70.000</span>
                     </p>
                     <p class="d-flex">
-                        <span>Delivery</span>
-                        <span>$0.00</span>
+                        <span>Vận chuyển</span>
+                        <span>0</span>
                     </p>
                     <p class="d-flex">
-                        <span>Discount</span>
-                        <span>$3.00</span>
+                        <span>Giảm giá</span>
+                        <span>5000</span>
                     </p>
                     <hr>
                     <p class="d-flex total-price">
-                        <span>Total</span>
-                        <span>$17.60</span>
+                        <span>Tổng cộng</span>
+                        <span>65.000</span>
                     </p>
                 </div>
-                <p class="text-center"><a href="order" class="btn btn-primary py-3 px-4">Proceed to Checkout</a>
+                <p class="text-center"><a href="order" class="btn btn-primary py-3 px-4">Tiếp tục</a>
                 </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-            <div class="col-md-7 heading-section ftco-animate text-center">
-                <span class="subheading">Discover</span>
-                <h2 class="mb-4">Related products</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
