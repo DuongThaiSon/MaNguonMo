@@ -2,7 +2,7 @@
 @section('title', 'Trang chủ')
 @section('content')
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_1.jpg);">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client') }}/images/bg_1.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_2.jpg);">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client') }}/images/bg_2.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client') }}/images/bg_3.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -60,7 +60,7 @@
 </section>
 
 <section class="ftco-about d-md-flex">
-    <div class="one-half img" style="background-image: url({{ asset('assets/client/asset') }}/images/about.jpg);"></div>
+    <div class="one-half img" style="background-image: url({{ asset('assets/client') }}/images/about.jpg);"></div>
     <div class="one-half ftco-animate">
         <div class="overlap">
             <div class="heading-section ftco-animate ">
@@ -143,22 +143,22 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="menu-entry">
-                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-1.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry mt-lg-4">
-                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-2.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry">
-                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-3.jpg);"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry mt-lg-4">
-                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
+                            <a href="shop" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-4.jpg);"></a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
     </div>
 </section>
 
-<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_2.jpg);"
+<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url({{ asset('assets/client') }}/images/bg_2.jpg);"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
@@ -229,7 +229,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-1.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-1.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -240,7 +240,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-2.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-2.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -251,7 +251,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-3.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-3.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -262,7 +262,7 @@
             </div>
             <div class="col-md-3">
                 <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url({{ asset('assets/client/asset') }}/images/menu-4.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url({{ asset('assets/client') }}/images/menu-4.jpg);"></a>
                     <div class="text text-center pt-4">
                         <h3><a href="#">Coffee Capuccino</a></h3>
                         <p>A small river named Duden flows by their place and supplies</p>
@@ -310,7 +310,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dish-1.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -324,7 +324,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dish-2.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -338,7 +338,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dish-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dish-3.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Grilled Beef</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -357,7 +357,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/drink-1.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Lemonade Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -371,7 +371,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/drink-2.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Pineapple Juice</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -385,7 +385,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/drink-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/drink-3.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Soda Drinks</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -404,7 +404,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-1.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dessert-1.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -418,7 +418,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-2.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dessert-2.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -432,7 +432,7 @@
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client/asset') }}/images/dessert-3.jpg);"></a>
+                                                style="background-image: url({{ asset('assets/client') }}/images/dessert-3.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Hot Cake Honey</a></h3>
                                                 <p>Far far away, behind the word mountains, far from the countries
@@ -453,7 +453,7 @@
     </div>
 </section>
 
-<section class="ftco-section img" id="ftco-testimony" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_1.jpg);"
+<section class="ftco-section img" id="ftco-testimony" style="background-image: url({{ asset('assets/client') }}/images/bg_1.jpg);"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
@@ -476,7 +476,7 @@
                     </blockquote>
                     <div class="author d-flex mt-4">
                         <div class="image mr-3 align-self-center">
-                            <img src="{{ asset('assets/client/asset') }}/images/person_1.jpg" alt="">
+                            <img src="{{ asset('assets/client') }}/images/person_1.jpg" alt="">
                         </div>
                         <div class="name align-self-center">Louise Kelly <span class="position">Illustrator
                                 Designer</span></div>
@@ -492,7 +492,7 @@
                     </blockquote>
                     <div class="author d-flex mt-4">
                         <div class="image mr-3 align-self-center">
-                            <img src="{{ asset('assets/client/asset') }}/images/person_2.jpg" alt="">
+                            <img src="{{ asset('assets/client') }}/images/person_2.jpg" alt="">
                         </div>
                         <div class="name align-self-center">Louise Kelly <span class="position">Illustrator
                                 Designer</span></div>
@@ -508,7 +508,7 @@
                     </blockquote>
                     <div class="author d-flex mt-4">
                         <div class="image mr-3 align-self-center">
-                            <img src="{{ asset('assets/client/asset') }}/images/person_3.jpg" alt="">
+                            <img src="{{ asset('assets/client') }}/images/person_3.jpg" alt="">
                         </div>
                         <div class="name align-self-center">Louise Kelly <span class="position">Illustrator
                                 Designer</span></div>
@@ -523,7 +523,7 @@
                     </blockquote>
                     <div class="author d-flex mt-4">
                         <div class="image mr-3 align-self-center">
-                            <img src="{{ asset('assets/client/asset') }}/images/person_2.jpg" alt="">
+                            <img src="{{ asset('assets/client') }}/images/person_2.jpg" alt="">
                         </div>
                         <div class="name align-self-center">Louise Kelly <span class="position">Illustrator
                                 Designer</span></div>
@@ -539,7 +539,7 @@
                     </blockquote>
                     <div class="author d-flex mt-4">
                         <div class="image mr-3 align-self-center">
-                            <img src="{{ asset('assets/client/asset') }}/images/person_3.jpg" alt="">
+                            <img src="{{ asset('assets/client') }}/images/person_3.jpg" alt="">
                         </div>
                         <div class="name align-self-center">Louise Kelly <span class="position">Illustrator
                                 Designer</span></div>

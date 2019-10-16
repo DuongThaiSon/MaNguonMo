@@ -2,7 +2,7 @@
 @section('title','Chi tiết')
 @section('content')
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url({{ asset('assets/client/asset') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <div class="slider-item" style="background-image: url({{ asset('assets/client') }}/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 ftco-animate">
-                <a href="{{ asset('assets/client/asset') }}/images/menu-2.jpg" class="image-popup"><img src="{{ asset('assets/client/asset') }}/images/menu-2.jpg" class="img-fluid"
+                <a href="{{ asset('assets/client') }}/images/menu-2.jpg" class="image-popup"><img src="{{ asset('assets/client') }}/images/menu-2.jpg" class="img-fluid"
                         alt="Colorlib Template"></a>
             </div>
             <div class="col-lg-6 product-details pl-md-5 ftco-animate">
