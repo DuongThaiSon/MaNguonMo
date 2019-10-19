@@ -13318,3 +13318,6 @@ textarea.form-control {
         stroke-dashoffset: -136px;
     }
 }
+.active-cart{
+    color: #c49b63 !important;
+}
