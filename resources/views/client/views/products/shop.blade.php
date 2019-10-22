@@ -26,9 +26,6 @@
                             <a class="nav-link active" id="v-pills-0-tab" data-toggle="pill" href="#v-pills-0"
                                 role="tab" aria-controls="v-pills-0" aria-selected="true">Coffee</a>
 
-                            <a class="nav-link" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab"
-                                aria-controls="v-pills-1" aria-selected="false">Món chính</a>
-
                             <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
                                 aria-controls="v-pills-2" aria-selected="false">Đồ uống</a>
 
@@ -86,83 +83,6 @@
                                                 <p class="price"><span>50.000VND</span></p>
                                                 <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
                                                         to Cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-                                <div class="row">
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-1.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-2.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-3.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-4.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-5.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="product-detail" class="menu-img img mb-4"
-                                                style="background-image: url({{ asset('assets/client') }}/images/dish-6.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="product-single">Grilled Beef</a></h3>
-                                                <p class="price"><span>45.000VND</span></p>
-                                                <p><a href="cart" class="btn btn-primary btn-outline-primary">Add
-                                                        to cart</a></p>
                                             </div>
                                         </div>
                                     </div>

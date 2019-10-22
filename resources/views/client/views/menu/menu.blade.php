@@ -27,7 +27,6 @@
                             <h3><span>Cornish - Mackerel</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -62,49 +61,6 @@
                 </div>
             </div>
 
-            <div class="col-md-6 mb-5 pb-3">
-                <h3 class="mb-5 heading-pricing ftco-animate">Main Dish</h3>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url({{ asset('assets/client') }}/images/dish-5.jpg);"></div>
-                    <div class="desc pt-3 pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Sea Trout</span></h3>
-                            <span class="price">$49.91</span>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url({{ asset('assets/client') }}/images/dish-6.jpg);"></div>
-                    <div class="desc pt-3 pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Roasted Beef</span></h3>
-                            <span class="price">20.000VND</span>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url({{ asset('assets/client') }}/images/dish-7.jpg);"></div>
-                    <div class="desc pt-3 pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Butter Fried Chicken</span></h3>
-                            <span class="price">20.000VND</span>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url({{ asset('assets/client') }}/images/dish-8.jpg);"></div>
-                    <div class="desc pt-3 pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Chiken Filet</span></h3>
-                            <span class="price">20.000VND</span>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
 
             <div class="col-md-6">
                 <h3 class="mb-5 heading-pricing ftco-animate">Desserts</h3>
