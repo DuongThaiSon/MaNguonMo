@@ -13321,3 +13321,10 @@ textarea.form-control {
 .active-cart{
     color: #c49b63 !important;
 }
+.navbar-brand img{
+    width: 40px;
+}
+.logo-text{
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+}
