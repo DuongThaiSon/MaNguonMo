@@ -27,3 +27,9 @@ Route::get('service', function (){
 Route::get('product-detail', function (){
     return view('client.views.products.product-detail');
 });
+Route::get('admin/login', function (){
+    return view('admin.views.login.login');
+});
+Route::get('admin', function (){
+    return view('admin.views.home.index');
+});

@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="{{ asset('assets/client') }}/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="{{ asset('assets/client') }}/css/jquery.timepicker.css">
 
-
     <link rel="stylesheet" href="{{ asset('assets/client') }}/css/flaticon.css">
     <link rel="stylesheet" href="{{ asset('assets/client') }}/css/icomoon.css">
     <link rel="stylesheet" href="{{ asset('assets/client') }}/css/style.css">
