@@ -25704,3 +25704,18 @@ a.fc-more:hover {
     margin-bottom: 30px;
     background-size: 100%
 }
+a:hover{
+    text-decoration: none;
+}
+.color-white{
+    color: #fff;
+}
+.ck-content{
+    height: 130px;
+}
+.m0-auto{
+    margin: 0 auto;
+}
+input[type="file"]{
+    padding: 3px 15px;
+}
