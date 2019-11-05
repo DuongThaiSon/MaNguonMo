@@ -33,9 +33,11 @@ Route::get('admin/login', function (){
 Route::get('admin', function (){
     return view('admin.views.home.index');
 });
+
 Route::get('admin/product-list', function (){
     return view('admin.views.products.product-list');
 });
+
 Route::get('admin/product-categories', function (){
     return view('admin.views.products.product-categories');
 });
