@@ -50,3 +50,12 @@ Route::get('admin/add-product-categories', function (){
 Route::get('admin/user', function (){
     return view('admin.views.user.user');
 });
+Route::get('admin/cart-process', function (){
+    return view('admin.views.cart.cart-processing');
+});
+Route::get('admin/cart-done', function (){
+    return view('admin.views.cart.cart-done');
+});
+Route::get('admin/cart-abort', function (){
+    return view('admin.views.cart.cart-abort');
+});
