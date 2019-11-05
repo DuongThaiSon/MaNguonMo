@@ -49,13 +49,13 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="product-list">
+                            <a href="{{route('dssp')}}">
                                 <i class="metismenu-icon"></i>
                                 Quản lý sản phẩm
                             </a>
                         </li>
                         <li>
-                            <a href="product-categories">
+                            <a href="{{route('dsdm')}}">
                                 <i class="metismenu-icon"></i>
                                 Quản lý danh mục sản phẩm
                             </a>

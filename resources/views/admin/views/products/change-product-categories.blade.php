@@ -1,10 +1,10 @@
 @extends('admin.layouts.main')
-@section('title','Thêm danh mục')
+@section('title','Sửa danh mục')
 @section('content')
 <div class="app-page-title">
     <div class="page-title-wrapper">
         <div class="page-title-heading">
-            <h2>Thêm Danh Mục Sản Phẩm</h2>
+            <h2>Sửa Danh Mục Sản Phẩm</h2>
         </div>
     </div>
 </div>
@@ -16,12 +16,15 @@
                                 {{ session('thongbao') }}
                             </div>
                         @endif
-                        <form action="{{route('themdanhmuc')}}" method="POST">
+                        <form action="" method="POST">
                         @CSRF
-                
+                <div class="form-group">
+                    <label>Mã Danh Mục</label>
+                    <input  class="form-control" readonly="readonly" value="{{$danhmuc->id}}"  name="MaDanhMuc" placeholder="" />
+                </div>
                 <div class="form-group">
                     <label for="">Tên Danh Mục</label>
-                    <input class="form-control"  name="TenDanhMuc" placeholder="Vui Lòng Nhập Tên Danh Mục" />
+                    <input class="form-control" value="{{$danhmuc->name}}"  name="TenDanhMuc" placeholder="Vui Lòng Nhập Tên Danh Mục" />
                 </div>
                 <button type="submit"  class="mt-1 btn btn-primary">Lưu</button>
             </form>

@@ -27,24 +27,26 @@ Route::get('service', function (){
 Route::get('product-detail', function (){
     return view('client.views.products.product-detail');
 });
-Route::get('admin/login', function (){
-    return view('admin.views.login.login');
-});
+
 Route::get('admin', function (){
     return view('admin.views.home.index');
 });
-Route::get('admin/product-list', function (){
-    return view('admin.views.products.product-list');
+
+Route::group(['prefix'=>'admin'],function(){
+    Route::group(['prefix'=>'product'],function(){
+        Route::get('danhsach','product_controller@getDanhSach')->name('dssp'); 
+
+    });
+    Route::group(['prefix'=>'category'],function(){
+        Route::get('danhsach','category_controller@getDanhSach')->name('dsdm');   
+        Route::get('add-category','category_controller@getThemDanhMuc')->name('themdm');
+        Route::post('add-category','category_controller@postThemDanhMuc')-> name('themdanhmuc'); 
+        Route::get('change-category/{id}','category_controller@getSuaDanhMuc')->name('suadm/{id}');
+        Route::post('change-category/{id}','category_controller@postSuaDanhMuc')-> name('suadanhmuc{id}');
+    });
+    Route::get('login', function (){
+        return view('admin.views.login.login');
+    });
 });
-Route::get('admin/product-categories', function (){
-    return view('admin.views.products.product-categories');
-});
-Route::get('admin/add-product', function (){
-    return view('admin.views.products.add-product');
-});
-Route::get('admin/add-product-categories', function (){
-    return view('admin.views.products.add-product-categories');
-});
-Route::get('admin/user', function (){
-    return view('admin.views.user.user');
-});
+        
+
