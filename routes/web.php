@@ -32,6 +32,7 @@ Route::get('admin', function (){
     return view('admin.views.home.index');
 });
 
+<<<<<<< HEAD
 Route::group(['prefix'=>'admin'],function(){
     Route::group(['prefix'=>'product'],function(){
         Route::get('danhsach','product_controller@getDanhSach')->name('dssp'); 
@@ -50,3 +51,30 @@ Route::group(['prefix'=>'admin'],function(){
 });
         
 
+=======
+Route::get('admin/product-list', function (){
+    return view('admin.views.products.product-list');
+});
+
+Route::get('admin/product-categories', function (){
+    return view('admin.views.products.product-categories');
+});
+Route::get('admin/add-product', function (){
+    return view('admin.views.products.add-product');
+});
+Route::get('admin/add-product-categories', function (){
+    return view('admin.views.products.add-product-categories');
+});
+Route::get('admin/user', function (){
+    return view('admin.views.user.user');
+});
+Route::get('admin/cart-process', function (){
+    return view('admin.views.cart.cart-processing');
+});
+Route::get('admin/cart-done', function (){
+    return view('admin.views.cart.cart-done');
+});
+Route::get('admin/cart-abort', function (){
+    return view('admin.views.cart.cart-abort');
+});
+>>>>>>> 170bfe1a6c440b434bfc7b12c4198493c087e03b
