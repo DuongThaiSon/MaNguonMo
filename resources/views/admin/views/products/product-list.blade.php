@@ -4,6 +4,11 @@
     <div class="app-page-title">
         <div class="page-title-wrapper">
             <div class="page-title-heading">
+            @if(session('thongbao'))
+                            <div class="alert alert-success">
+                                {{ session('thongbao') }}
+                            </div>
+        @endif
                 <a href="add-product" title="Thêm mới">
                     <div class="page-title-icon">
                         <i class="pe-7s-plus icon-gradient bg-happy-itmeo"></i>
@@ -37,13 +42,13 @@
                                 $i+=1;
                               ?>
                     <tr>
-                        <td>$i</td>
+                        <td>{{$i}}</td>
                         <td>{{$sp->name}}</td>
                         <td>
                             <img src="/assets/client/images/{{$sp->image}}" alt="" width="100">
                         </td>
                         <td>
-                            <p>{{$sp->description}}</p>
+                            <p>{!! $sp->description !!}</p>
                         </td>
                         <td>
                             <span>{{number_format($sp->price)}}đ</span>

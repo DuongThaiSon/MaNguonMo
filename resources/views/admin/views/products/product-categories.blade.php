@@ -31,12 +31,12 @@
                         <td>{{$dm->created_at}}</td>
                         <td>
                             <div class="btn-group-md btn-group btn-group-toggle">
-                                <a class="btn btn-primary" href="admin/category/change-category/{{$dm->id}}" title="Sửa">
+                                <a class="btn btn-primary" href="change-category/{{$dm->id}}" title="Sửa">
                                     <i class="fas fa-edit color-white"></i>
                                 </a>
-                                <button class="btn btn-danger btn-delete" title="Xóa">
+                                <a class="btn btn-danger btn-delete" title="Xóa" href="delete/{{$dm->id}}">
                                     <i class="pe-7s-trash"></i>
-                                </button>
+                                </a>
                             </div>
                         </td>
                     </tr>

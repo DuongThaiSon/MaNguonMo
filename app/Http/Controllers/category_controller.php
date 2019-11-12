@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class category_controller extends Controller
 {
     public function getDanhSach(){
-        $dsdm = categories::all();
+        $dsdm = categories::where('status',1)->get();
         return view('admin.views.products.product-categories',['dsdm'=>$dsdm]);  
     }
     public function getThemDanhMuc(){
@@ -30,5 +30,11 @@ class category_controller extends Controller
         $danhmuc->save();
         return redirect('admin/category/change-category/'.$id)->with('thongbao','Sửa Thành Công');
     }
+    public function xoaDanhMuc($id){
+        $danhmuc = categories::find($id);
+        $danhmuc->status = 0;
+        $danhmuc->save();
+        return redirect('admin/category/danhsach')->with('thongbao','Xóa Thành Công');;
 
+    }   
 }

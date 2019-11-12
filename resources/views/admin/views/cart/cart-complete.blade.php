@@ -1,11 +1,6 @@
 @extends('admin.layouts.main')
-@section('title','Giỏ hàng')
+@section('title','Đơn Hàng Bị Hủy')
 @section('content')
-                            @if(session('thongbao'))
-                            <div class="alert alert-success">
-                                {{ session('thongbao') }}
-                            </div>
-                            @endif
 <div class="main-card mb-3 card">
     <div class="card-body">
         <table class="mb-0 table table-hover">
@@ -21,23 +16,22 @@
                     <th>Email</th>
                     <th>Discount</th>
                     <th>Tổng tiền</th>
-                    <th>T/g xác nhận</th>
-                    <th>Thao tác</th>
+                    <th>T/g thanh toán</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
                                 $i=1;
                               ?>
-                @foreach($dsdaxl as $dh)
+                @foreach($dsdg as $dh)
                 <?php
                                 $i+=1;
                               ?>
                 <tr>
                     <td>{{$i}}</td>
-                    @if($dh->status==2)
-                    <td style="color:blue">
-                        Đã tiếp nhận
+                    @if($dh->status==3)
+                    <td style="color:"#9b0ed0>
+                        Đã Thanh Toán
                     </td>
                     @endif
                     <td>
@@ -64,16 +58,6 @@
                     <td>{{$dh->discount}}%</td>
                     <td>{{number_format($dh->price)}}đ</td>
                     <td>{{$dh->updated_at}}
-                    </td>
-                    <td>
-                        <div class="btn-group-md btn-group btn-group-toggle">
-                            <a class="btn btn-success" href="accept_daxl/{{$dh->id}}" title="Xác Nhận">
-                                <i class="fas fa-check-circle"></i>
-                            </a>
-                            <a class="btn btn-danger btn-delete" href="cancel_daxl/{{$dh->id}}"  title="Hủy">
-                                <i class="pe-7s-trash"></i>
-                            </a>
-                        </div>
                     </td>
                 </tr>
                 @endforeach

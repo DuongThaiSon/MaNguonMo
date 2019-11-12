@@ -18,10 +18,9 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Username</th>
                         <th>Tên</th>
-                        <th>Địa chỉ</th>
                         <th>Email</th>
+                        <th>Địa chỉ</th>
                         <th>Số điện thoại</th>
                         <th>Vai trò</th>
                         <th>Trạng thái</th>
@@ -29,15 +28,26 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach($dsnv as $nv)
                     <tr>
-                        <td>1</td>
-                        <td>duongthaison98</td>
-                        <td>Dương Thái Sơn</td>
-                        <td>Số 61 Văn Cao</td>
-                        <td>duongthaison98@gmail.com</td>
-                        <td>01632214203</td>
-                        <td>Tổng giám đốc</td>
-                        <td>1</td>
+                        <td>{{$nv->id}}</td>  
+                        <td>{{$nv->name}}</td>
+                        <td>{{$nv->email}}</td>
+                        <td>{{$nv->address}}</td>
+                        <td>{{$nv->phone}}</td>
+                        @if($nv->role==1)
+                        <td style="color:blue">Nhân viên</td>
+                        @endif
+                        @if($nv->role==0)
+                        <td style="color:red">Admin</td>
+                        @endif
+                        
+                        @if($nv->status==0)
+                        <td style="color:red">Không hoạt động</td>
+                        @endif
+                        @if($nv->status==1)
+                        <td style="color:green">Đang hoạt động</td>
+                        @endif
                         <td>
                             <div class="btn-group-md btn-group btn-group-toggle">
                                 <a class="btn btn-primary" href="" title="Sửa">
@@ -49,46 +59,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>duongthaison98</td>
-                        <td>Dương Thái Sơn</td>
-                        <td>Số 61 Văn Cao</td>
-                        <td>duongthaison98@gmail.com</td>
-                        <td>01632214203</td>
-                        <td>Tổng giám đốc</td>
-                        <td>1</td>
-                        <td>
-                            <div class="btn-group-md btn-group btn-group-toggle">
-                                <a class="btn btn-primary" href="" title="Sửa">
-                                    <i class="fas fa-edit color-white"></i>
-                                </a>
-                                <button class="btn btn-danger btn-delete" title="Xóa">
-                                    <i class="pe-7s-trash"></i>
-                                </button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>duongthaison98</td>
-                        <td>Dương Thái Sơn</td>
-                        <td>Số 61 Văn Cao</td>
-                        <td>duongthaison98@gmail.com</td>
-                        <td>01632214203</td>
-                        <td>Tổng giám đốc</td>
-                        <td>1</td>
-                        <td>
-                            <div class="btn-group-md btn-group btn-group-toggle">
-                                <a class="btn btn-primary" href="" title="Sửa">
-                                    <i class="fas fa-edit color-white"></i>
-                                </a>
-                                <button class="btn btn-danger btn-delete" title="Xóa">
-                                    <i class="pe-7s-trash"></i>
-                                </button>
-                            </div>
-                        </td>
-                    </tr>
+                    @endforeach
                    
                 </tbody>
             </table>

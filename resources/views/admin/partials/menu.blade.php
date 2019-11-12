@@ -36,7 +36,7 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                    <a href="" class="mm-active">
+                    <a href="/admin" class="mm-active">
                         <i class="metismenu-icon pe-7s-rocket"></i>
                         Trang chủ
                     </a>
@@ -65,26 +65,32 @@
                 <li>
                     <a href="cart">
                         <i class="metismenu-icon pe-7s-cart"></i>
-                        Giỏ hàng
+                        Quản lý đơn hàng
                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>
                     <ul>
                         <li>
-                            <a href="components-tabs.html">
+                            <a href="{{route('dsdhdxl')}}">
                                 <i class="metismenu-icon"></i>
-                                Đang xử lý
+                                Chờ xử lý
                             </a>
                         </li>
                         <li>
-                            <a href="components-accordions.html">
+                            <a href="{{route('dsdhdaxl')}}">
                                 <i class="metismenu-icon"></i>
-                                Đã xử lý
+                                Đã tiếp nhận
                             </a>
                         </li>
                         <li>
-                            <a href="components-notifications.html">
+                            <a href="{{route('dsdhbh')}}">
                                 <i class="metismenu-icon"></i>
-                                Đã hủy
+                                Bị Hủy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('dsdg')}}">
+                                <i class="metismenu-icon"></i>
+                                Đã Thanh Toán
                             </a>
                         </li>
                     </ul>
@@ -96,7 +102,7 @@
                     </a>
                 </li> -->
                 <li>
-                    <a href="user">
+                    <a href="{{route('dsnv')}}">
                         <i class="metismenu-icon pe-7s-users"></i>
                         Nhân viên
                     </a>
