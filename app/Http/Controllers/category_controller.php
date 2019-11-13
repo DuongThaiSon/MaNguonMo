@@ -21,6 +21,7 @@ class category_controller extends Controller
     }
     public function getSuaDanhMuc($id){
         $danhmuc = categories::find($id);
+        
         return view('admin.views.products.change-product-categories',['danhmuc'=>$danhmuc]);
     }
     

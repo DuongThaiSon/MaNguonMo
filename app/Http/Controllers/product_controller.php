@@ -32,7 +32,8 @@ class product_controller extends Controller
     }
     public function getSuaSanPham($id){
         $SanPham = product::find($id);
-        return view('admin.views.products.change-product',['SanPham'=>$SanPham]);
+        $dsdm = categories::all();
+        return view('admin.views.products.change-product',['SanPham'=>$SanPham,'dsdm'=>$dsdm]);
     }
     
     public function postSuaSanPham(Request $request,$id){
@@ -41,8 +42,8 @@ class product_controller extends Controller
         $SanPham->description = $request ->MieuTa;
         $SanPham->price = $request ->GiaSizeM;
         $SanPham->price1 = $request ->GiaSizeL;
-        $SanPham->image = $request->Anh;
-        $SanPham->id_category =$request->s;
+        $SanPham->image = $request->Anh->getClientOriginalName();;
+        $SanPham->id_category =$request->TheLoai;
         $SanPham->save();
         return redirect('admin/product/change-product/'.$id)->with('thongbao','Sửa Thành Công');
     }

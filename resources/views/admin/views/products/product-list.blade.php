@@ -64,12 +64,12 @@
                         <td>{{$sp->created_at}}</td>
                         <td>
                             <div class="btn-group-md btn-group btn-group-toggle">
-                                <a class="btn btn-primary" href="" title="Sửa">
+                                <a class="btn btn-primary" href="change-product/{{$sp->id}}" title="Sửa">
                                     <i class="fas fa-edit color-white"></i>
                                 </a>
-                                <button class="btn btn-danger btn-delete" title="Xóa">
+                                <a class="btn btn-danger btn-delete"  href="delete/{{$sp->id}} title="Xóa">
                                     <i class="pe-7s-trash"></i>
-                                </button>
+                                </a>
                             </div>
                         </td>
                     </tr>
