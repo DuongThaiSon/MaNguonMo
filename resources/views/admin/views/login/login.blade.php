@@ -20,17 +20,18 @@
 <body>
     <section id="login">
         <div class="card">
-            <form class="form-signin">
+            <form class="form-signin" action="{{route('postLogin')}}" method="post">
+                @CSRF
                 <h3 class="text-center mt-3 mb-5">Đăng nhập</h3>
                 <div class="input-group">
-                    <input type="email" name="" id="" class="form-control">
+                    <input type="email" name="Email" id="" class="form-control">
                     <span class="input-group-ava">
                         <i class="fas fa-user"></i>
                     </span>
                 </div>
                 <br>
                 <div class="input-group">
-                    <input type="password" name="" id="" class="form-control">
+                    <input type="password" name="Pass" id="" class="form-control">
                     <span class="input-group-ava">
                         <i class="fas fa-lock"></i>
                     </span>

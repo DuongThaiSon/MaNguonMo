@@ -46,7 +46,6 @@
                             <h3><span>Seasonal Soup</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -56,12 +55,9 @@
                             <h3><span>Chicken Curry</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
             </div>
-
-
             <div class="col-md-6">
                 <h3 class="mb-5 heading-pricing ftco-animate">Desserts</h3>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -71,7 +67,6 @@
                             <h3><span>Cornish - Mackerel</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -81,7 +76,6 @@
                             <h3><span>Roasted Steak</span></h3>
                             <span class="price">$29.00</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -91,7 +85,6 @@
                             <h3><span>Seasonal Soup</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -101,11 +94,9 @@
                             <h3><span>Chicken Curry</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
             </div>
-
             <div class="col-md-6">
                 <h3 class="mb-5 heading-pricing ftco-animate">Drinks</h3>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -115,7 +106,6 @@
                             <h3><span>Sea Trout</span></h3>
                             <span class="price">$49.91</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -125,7 +115,6 @@
                             <h3><span>Roasted Beef</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -135,7 +124,6 @@
                             <h3><span>Butter Fried Chicken</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="pricing-entry d-flex ftco-animate">
@@ -145,7 +133,6 @@
                             <h3><span>Chiken Filet</span></h3>
                             <span class="price">20.000VND</span>
                         </div>
-                       
                     </div>
                 </div>
             </div>

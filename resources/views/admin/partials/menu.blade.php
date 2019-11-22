@@ -35,8 +35,8 @@
         <div class="app-sidebar__inner">
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
-                <li>
-                    <a href="/admin" class="mm-active">
+                <li class="mm-active">
+                    <a href="/admin">
                         <i class="metismenu-icon pe-7s-rocket"></i>
                         Trang chủ
                     </a>
@@ -95,12 +95,6 @@
                         </li>
                     </ul>
                 </li>
-                <!-- <li>
-                    <a href="#">
-                        <i class="metismenu-icon pe-7s-graph3"></i>
-                        Thống kê
-                    </a>
-                </li> -->
                 <li>
                     <a href="{{route('dsnv')}}">
                         <i class="metismenu-icon pe-7s-users"></i>

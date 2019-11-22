@@ -1,4 +1,9 @@
 <?php
+Route::get('login', function (){
+    return view('admin.views.login.login');
+})->name('get-login');
+Route::post('login','AdminController@postLogin')->name('postLogin');
+Route::get('logout','AdminController@getLogout')->name('get-logout');
 
 Route::get('/', function () {
     return view('client.views.home.index');
@@ -28,12 +33,13 @@ Route::get('product-detail', function (){
     return view('client.views.products.product-detail');
 });
 
-Route::get('admin', function (){
-    return view('admin.views.home.index');
-});
-
-Route::group(['prefix'=>'admin'],function(){
+Route::group(['prefix'=>'admin','middleware'=>'loginadmin'],function(){
+    Route::get('/', function (){
+        return view('admin.views.home.index');
+    });
     Route::group(['prefix'=>'product'],function(){
+
+        
         Route::get('danhsach','product_controller@getDanhSach')->name('dssp'); 
         Route::get('delete/{id}','product_controller@xoaSanPham')-> name('xoasp');
         Route::get('add-product','product_controller@getThemSanPham')->name('themsp');
@@ -69,9 +75,7 @@ Route::group(['prefix'=>'admin'],function(){
     });
     Route::get('danhsachnhanvien','account_controller@getDanhSach')->name('dsnv');
 
-    Route::get('login', function (){
-        return view('admin.views.login.login');
-    });
+    
 });
 
         
