@@ -39,7 +39,7 @@ class product_controller extends Controller
     public function postSuaSanPham(Request $request,$id){
         $SanPham = product::find($id);
         $SanPham->name = $request ->TenSanPham;
-        $SanPham->description = $request ->MieuTa;
+        $SanPham->description = $request ->MoTa;
         $SanPham->price = $request ->GiaSizeM;
         $SanPham->price1 = $request ->GiaSizeL;
         $SanPham->image = $request->Anh->getClientOriginalName();;
