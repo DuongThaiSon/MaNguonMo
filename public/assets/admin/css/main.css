@@ -11436,7 +11436,7 @@ button,
     transform: rotate(-180deg)
 }
 
-.vertical-nav-menu li a.mm-active {
+.vertical-nav-menu .mm-active>a{
     color: #343a40;
     background: #e0f3ff;
     font-weight: bold
@@ -11484,7 +11484,7 @@ button,
     color: #6c757d;
     height: 2rem;
     line-height: 2rem;
-    padding: 0 1.5rem 0
+    padding: 0 11px;
 }
 
 .vertical-nav-menu ul>li>a:hover {
